@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.button {
+  border: none;
+  outline: none;
+  padding: 10px 18px;
+  border-radius: 15px;
+  background: #7fffd4;
+  font-size: 18px;
+}
+
+.button:hover {
+  background: #5fc0a0;
+}
+
+.button:active {
+  background: #4e9b81;
+}
+
+.loginpage {
+  height: calc(100vh - 82px);
+}
+
+.loginbox {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 350px;
+  height: 100px;
+  transform: translate(-50%, -50%);
+}
+
+.chat {
+  height: calc(100vh - 82px);
+  padding: 0 400px;
+}
+
+.chat-messages {
+  border: 1px solid #333;
+  height: 70%;
+  margin-bottom: 30px;
+}
+
+.message-input {
+  display: flex;
+}
+
+.message-input input {
+  width: 100%;
+  margin-right: 30px;
+}
+
+.message {
+  display: flex;
+  height: 50px;
+  margin-bottom: 15px;
+}
